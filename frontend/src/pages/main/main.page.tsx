@@ -5,3 +5,10 @@ const MainPage = () => {
   return <div>Main page</div>
 }
 export default MainPage
+
+import React from 'react'
+import { type } from './model'
+
+export const name = (props: type) => {
+  return <div></div>
+}
