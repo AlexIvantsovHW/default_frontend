@@ -1,7 +1,6 @@
-import { useGetAllProjectsQuery } from '../../shared/reducers/user/user.api'
-
+import * as i from './imports'
 const MainPage = () => {
-  const { data } = useGetAllProjectsQuery({})
+  const { data } = i.useGetAllProjectsQuery({})
   console.log(data)
   return <div>Main page</div>
 }
