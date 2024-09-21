@@ -13,7 +13,6 @@ const client = new ApolloClient({
   uri: GRAPHQL_URL,
   cache: new InMemoryCache(),
 });
-console.log();
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>
